@@ -12,13 +12,13 @@ public class browserdemo {
 		
 		driver.navigate().to("https://www.google.com/");
 		
-	//	String expected = "Google";
+		String expected = "Google";
 		String actual = driver.getTitle();
 		
-	//	Assert.assertEquals(actual, expected);
+		Assert.assertEquals(actual, expected);
 		System.out.println("The title of the page is : " + actual);
 		
-		//driver.quit();
+		driver.quit();
 
 	}
 }
